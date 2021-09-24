@@ -13,10 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/ola', function () {
-    echo "Olá Ygor!";
-});
+Route::get('/series', 'App\Http\Controllers\SeriesController@index');
