@@ -1,33 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Source+Sans+Pro&display=swap");
+
 * {
     padding: 0;
     margin: 0;
     vertical-align: baseline;
     list-style: none;
     border: 0;
+    font-family: "Lato", "Roboto", "Source Sans Pro", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d1d8d8;
 }
 
 .header {
     display: flex;
     text-align: center;
     justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #1d201f;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 80vw;
+}
+
+.header-title {
+    font-size: 50px;
+    color: #ffffff;
 }
 
 .series-list {
     display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    width: 50vw;
+    justify-content: space-around;
 }
 
 .now-watching {
+    text-align: center;
 }
 
-.series-group {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.now-watching h2 {
+    font-size: 30px;
+}
+
+.to-watch {
     text-align: center;
+}
+
+.to-watch h2 {
+    font-size: 30px;
+}
+
+.series-group a {
+    color: #ffffff;
 }
 
 .series-item {
@@ -35,5 +66,19 @@
     border-radius: 5px;
     margin-bottom: 5px;
     padding: 5px;
-    width: 500px;
+    width: 20vw;
+    background-color: #6369d1;
+    border-color: #6369d1;
+    transition: padding 0.3s ease-in-out;
+}
+
+.series-item:hover {
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 20vw;
+
+    background-color: #555ab7;
+    border-color: #555ab7;
 }

@@ -15,18 +15,22 @@
     </div>
     <div class="series-list">
         <div class="now-watching">
-            <h1>Assistindo no momento</h1>
+            <h2>Assistindo no momento</h2>
             <ul class="series-group">
-                <?php foreach ($seriesWatching as $serie) : ?>
-                    <li class="series-item"><?= $serie; ?></li>
+                <?php foreach ($seriesWatching as $serie => $url) : ?>
+                    <a href="<?= $url ?>">
+                        <li class="series-item"><?= $serie; ?></li>
+                    </a>
                 <?php endforeach; ?>
             </ul>
         </div>
         <div class="to-watch">
-            <h1>Para assistir</h1>
+            <h2>Para assistir</h2>
             <ul class="series-group">
-                <?php foreach ($seriesToWatch as $serie) : ?>
-                    <li class="series-item"><?= $serie; ?></li>
+                <?php foreach ($seriesToWatch as $serie => $url) : ?>
+                    <a href="<?= $url ?>">
+                        <li class="series-item"><?= $serie; ?></li>
+                    </a>
                 <?php endforeach; ?>
             </ul>
         </div>
