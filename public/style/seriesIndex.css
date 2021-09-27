@@ -69,16 +69,11 @@ body {
     width: 20vw;
     background-color: #6369d1;
     border-color: #6369d1;
-    transition: padding 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .series-item:hover {
-    border: 2px solid;
-    border-radius: 5px;
-    margin-bottom: 5px;
     padding: 10px;
-    width: 20vw;
-
     background-color: #555ab7;
     border-color: #555ab7;
 }
