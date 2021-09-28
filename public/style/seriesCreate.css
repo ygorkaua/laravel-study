@@ -34,84 +34,46 @@ body {
     color: #ffffff;
 }
 
-.sucess-message {
-    width: 60vw;
+form {
     display: flex;
-    height: 50px;
-    font-size: 20px;
-    background-color: #4ceb93;
+    flex-direction: column;
+    align-items: center;
+}
+.form-add {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-add label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form-input {
+    height: 30px;
+    width: 70vw;
+    margin-bottom: 10px;
     border-radius: 7px;
-    border: #14ce68 2px solid;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 15px;
+    padding: 0 10px;
+    height: 40px;
+    font-size: 20px;
+    outline: none;
+    border: 3px #555ab7 solid;
 }
 
-.series-list {
-    display: flex;
-    align-items: flex-start;
-    width: 60vw;
-    justify-content: space-around;
-}
-
-.now-watching {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.now-watching h2 {
-    font-size: 30px;
-}
-
-.to-watch {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.to-watch h2 {
-    font-size: 30px;
-}
-
-.series-group a {
-    color: #ffffff;
-}
-
-.series-item {
-    border: 2px solid;
+.form-btn {
+    padding: 10px;
     border-radius: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
-    width: 20vw;
-    background-color: #6369d1;
-    border-color: #6369d1;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-}
-
-.series-item:hover {
-    padding: 7px;
-    background-color: #555ab7;
-    border-color: #555ab7;
-}
-
-.btn-add {
     background-color: #1d201f;
     border-color: #1d201f;
-    border-radius: 5px;
     color: #ffffff;
-    padding: 10px;
-    width: 60vw;
+    width: 70vw;
     text-align: center;
     margin-top: 5px;
     transition: all 0.3s ease-in-out;
 }
 
-.btn-add:hover {
+.form-btn:hover {
     background-color: #0f1010;
     border-color: #0f1010;
     padding: 12px;

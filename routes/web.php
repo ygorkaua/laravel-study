@@ -13,4 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// GET routes
 Route::get('/series', 'App\Http\Controllers\SeriesController@index');
+Route::get('/series/adicionar', 'App\Http\Controllers\SeriesController@create');
+Route::get('/series/{id}', 'App\Http\Controllers\SeriesController@item');
+
+// POST routes
+Route::post('/series/adicionar', 'App\Http\Controllers\SeriesController@store');
+Route::post('/series/remover/{id}', 'App\Http\Controllers\SeriesController@destroy');
