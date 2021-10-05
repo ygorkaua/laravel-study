@@ -9,6 +9,21 @@ use Illuminate\Support\Facades\Http;
 class SeriesController extends Controller
 {
     /**
+     * @var string
+     */
+    private $responseImageLink = '';
+
+    /**
+     * @var string
+     */
+    private $responseRating = '';
+
+    /**
+     * @var array
+     */
+    private $variablesArray;
+
+    /**
      * Return the series names.
      *
      * @return array
@@ -55,17 +70,22 @@ class SeriesController extends Controller
 
         $serieName = Serie::where('id', substr(url()->current(), 29))->first()->name;
 
-        $responseImageLink = '';
-        $responseRating = '';
-
         $response = Http::get('https://api.tvmaze.com/singlesearch/shows?q=' . $serieName);
 
-        if (property_exists($response, 'id')) {
-            $responseImageLink = $response['image']['medium'];
-            $responseRating = $response['rating']['average'];
+        if (isset($response['id'])) {
+            $this->responseImageLink = $response['image']['original'];
+            $this->responseRating = $response['rating']['average'];
         }
 
-        return view('series.item', compact(['seriesToWatch', 'serieName', 'responseImageLink', 'responseRating', 'response']));
+        $this->variablesArray = [
+            'seriesToWatch' => $seriesToWatch,
+            'serieName' => $serieName,
+            'response' => $response,
+            'responseImageLink' => $this->responseImageLink,
+            'responseRating' => $this->responseRating,
+        ];
+
+        return view('series.item', $this->variablesArray);
     }
 
     public function destroy(Request $request)

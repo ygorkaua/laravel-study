@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&Lato&family=Roboto&family=Source+Sans+Pro&display=swap");
 
 * {
     padding: 0;
@@ -8,16 +8,125 @@
     border: 0;
     font-family: "Lato", "Roboto", "Source Sans Pro", sans-serif;
     text-decoration: none;
+    color: inherit;
 }
 
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    background-color: #d1d8d8;
+    background-color: #fcfcfd;
 }
 
-.header {
+.lateral-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #b00000;
+    width: 15vw;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.options {
+    width: 90%;
+}
+
+.options-list,
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 5px 15px 5px;
+}
+
+.options-list svg {
+    width: 15%;
+    fill: #fcfcfd;
+}
+
+.menu-list svg {
+    width: 15%;
+    fill: #b00000;
+}
+
+.options-list a,
+.menu-list a {
+    font-size: 15px;
+}
+
+.menu-list {
+    background-color: #fcfcfd;
+    border-radius: 20px;
+}
+
+.menu-button a {
+    background-color: #fcfcfd;
+    color: #b00000;
+}
+
+.options-buttons a {
+    background-color: #b00000;
+    color: #fcfcfd;
+}
+
+.integrations {
+    width: 90%;
+}
+
+.integration-list {
+    display: flex;
+    flex-direction: column;
+    color: #fcfcfd;
+}
+
+.integration-list p {
+    font-size: 25px;
+    font-family: "Montserrat";
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
+}
+
+.integration-list div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 5px 15px 5px;
+}
+
+.integration-list svg {
+    width: 15%;
+    fill: #fcfcfd;
+}
+
+.exit {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 15px 5px 15px 5px;
+}
+
+.exit svg {
+    fill: #fcfcfd;
+    padding: 10px;
+}
+
+.exit-button {
+    background-color: #b00000;
+    color: #fcfcfd;
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+/* .header {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -115,4 +224,4 @@ body {
     background-color: #0f1010;
     border-color: #0f1010;
     padding: 12px;
-}
+} */

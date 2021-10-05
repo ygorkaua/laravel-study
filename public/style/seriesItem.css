@@ -33,3 +33,24 @@ body {
     font-size: 50px;
     color: #ffffff;
 }
+
+.image-serie {
+    display: flex;
+}
+
+.serie-information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+}
+
+.serie-image {
+    width: 340px;
+    height: 500px;
+}
+
+.serie-description {
+    width: 30vw;
+    font-size: 20px;
+}
