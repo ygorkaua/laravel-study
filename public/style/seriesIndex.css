@@ -45,6 +45,12 @@ body {
     display: flex;
     flex-direction: row;
     padding: 15px 5px 15px 5px;
+    transition: padding 0.5s;
+}
+
+.options-list:hover,
+.menu-list:hover {
+    padding: 15px 5px 15px 15px;
 }
 
 .options-list svg {
@@ -67,12 +73,12 @@ body {
     border-radius: 20px;
 }
 
-.menu-button a {
+.menu-button button {
     background-color: #fcfcfd;
     color: #b00000;
 }
 
-.options-buttons a {
+.options-buttons button {
     background-color: #b00000;
     color: #fcfcfd;
 }
@@ -85,6 +91,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #fcfcfd;
+    font-size: 15px;
 }
 
 .integration-list p {
@@ -98,11 +105,16 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 15px 5px 15px 5px;
+    padding: 10px 5px 10px 5px;
+    transition: padding 0.5s;
+}
+
+.integration-list div:hover {
+    padding: 10px 5px 10px 15px;
 }
 
 .integration-list svg {
-    width: 15%;
+    width: 2vw;
     fill: #fcfcfd;
 }
 
@@ -111,6 +123,11 @@ body {
     flex-direction: row;
     width: 90%;
     padding: 15px 5px 15px 5px;
+    transition: padding 0.5s;
+}
+
+.exit:hover {
+    padding: 15px 5px 15px 15px;
 }
 
 .exit svg {
@@ -119,6 +136,10 @@ body {
 }
 
 .exit-button {
+    background-color: #b00000;
+}
+
+.exit-button a {
     background-color: #b00000;
     color: #fcfcfd;
     font-size: 15px;
