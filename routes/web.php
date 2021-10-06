@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 // GET routes
-Route::get('/series', 'App\Http\Controllers\SeriesController@index');
+Route::get('/', 'App\Http\Controllers\SeriesController@index');
 Route::get('/series/adicionar', 'App\Http\Controllers\SeriesController@create');
 Route::get('/series/{id}', 'App\Http\Controllers\SeriesController@item');
 
