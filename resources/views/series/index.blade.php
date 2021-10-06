@@ -126,11 +126,205 @@
     </a>
 </div>
 <div class="main-content">
+    <div class="header">
+        <div class="search">
+            <div class="dropdown">
+                <p>Todas</p>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                        <path d="M24 24H0V0h24v24z" fill="none" opacity=".87" />
+                        <path d="M15.88 9.29L12 13.17 8.12 9.29c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59c.39-.39.39-1.02 0-1.41-.39-.38-1.03-.39-1.42 0z" />
+                    </svg>
+                </a>
+                <p class="separator">|</p>
+                <input type="text" placeholder="Procurar Série..." name="series-search" id="">
+            </div>
+            <a href="#">
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+                </svg>
+            </a>
+        </div>
+        <div class="watched-minutes">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                <circle cx="12" cy="17" r="1" />
+                <circle cx="7" cy="12" r="1" />
+                <circle cx="17" cy="12" r="1" />
+                <path d="M12 3c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1s1-.45 1-1v-.92c3.31.48 5.87 3.25 6 6.66.14 3.85-3.03 7.2-6.88 7.26C8.19 19.06 5 15.91 5 12c0-1.68.59-3.22 1.58-4.42l4.71 4.72c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.26 5.46c-.38-.38-1-.39-1.4-.02C4.1 7.07 3 9.4 3 12c0 5.04 4.14 9.12 9.21 9 4.7-.11 8.63-4.01 8.78-8.71C21.16 7.19 17.07 3 12 3z" />
+            </svg>
+            <div class="minutes">
+                <h2>Minutos Assistidos</h2>
+                <p class="minute">100 Min</p>
+            </div>
+        </div>
+        <div class="icons">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z" />
+                </svg>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM7.07 18.28c.43-.9 3.05-1.78 4.93-1.78s4.51.88 4.93 1.78C15.57 19.36 13.86 20 12 20s-3.57-.64-4.93-1.72zm11.29-1.45c-1.43-1.74-4.9-2.33-6.36-2.33s-4.93.59-6.36 2.33C4.62 15.49 4 13.82 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8c0 1.82-.62 3.49-1.64 4.83zM12 6c-1.94 0-3.5 1.56-3.5 3.5S10.06 13 12 13s3.5-1.56 3.5-3.5S13.94 6 12 6zm0 5c-.83 0-1.5-.67-1.5-1.5S11.17 8 12 8s1.5.67 1.5 1.5S12.83 11 12 11z" />
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="first-row">
+        <div class="banner">
+            <p>Lancamento</p>
+            <h2>Round 6</h2>
+            <button>Assistir</button>
+            <!-- <img src="https://cabanadoleitor.com.br/wp-content/uploads/2021/09/Round6_Netflix_Serie_CDL_1920x1080_01.jpg" style="width:100%"> -->
+        </div>
+        <div class="friends-activity">
+            <div class="title">
+                <h2>Amigos e Séries</h2>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                        <rect fill="none" height="24" width="24" />
+                        <path d="M14.29,5.71L14.29,5.71c-0.39,0.39-0.39,1.02,0,1.41L18.17,11H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h15.18l-3.88,3.88 c-0.39,0.39-0.39,1.02,0,1.41l0,0c0.39,0.39,1.02,0.39,1.41,0l5.59-5.59c0.39-0.39,0.39-1.02,0-1.41L15.7,5.71 C15.32,5.32,14.68,5.32,14.29,5.71z" />
+                    </svg>
+                </a>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p class="name">Nome</p>
+                <p class="activity">Atividade</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p class="name">Nome</p>
+                <p class="activity">Atividade</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p class="name">Nome</p>
+                <p class="activity">Atividade</p>
+            </div>
+        </div>
+    </div>
+    <div class="second-row">
+        <div class="my-progression">
+            <div class="title">
+                <h2>Progressão</h2>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                        <rect fill="none" height="24" width="24" />
+                        <path d="M14.29,5.71L14.29,5.71c-0.39,0.39-0.39,1.02,0,1.41L18.17,11H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h15.18l-3.88,3.88 c-0.39,0.39-0.39,1.02,0,1.41l0,0c0.39,0.39,1.02,0.39,1.41,0l5.59-5.59c0.39-0.39,0.39-1.02,0-1.41L15.7,5.71 C15.32,5.32,14.68,5.32,14.29,5.71z" />
+                    </svg>
+                </a>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p class="name">Nome</p>
+                <p class="activity">Episódio</p>
+                <p class="percent">50.00%</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p class="name">Nome</p>
+                <p class="activity">Episódio</p>
+                <p class="percent">50.00%</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p class="name">Nome</p>
+                <p class="activity">Episódio</p>
+                <p class="percent">50.00%</p>
+            </div>
+            <div>
+                <button class="all-series">Todas as séries</button>
+            </div>
+        </div>
+        <div class="popular-series">
+            <div class="title">
+                <h2>Séries Populares</h2>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                        <rect fill="none" height="24" width="24" />
+                        <path d="M14.29,5.71L14.29,5.71c-0.39,0.39-0.39,1.02,0,1.41L18.17,11H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h15.18l-3.88,3.88 c-0.39,0.39-0.39,1.02,0,1.41l0,0c0.39,0.39,1.02,0.39,1.41,0l5.59-5.59c0.39-0.39,0.39-1.02,0-1.41L15.7,5.71 C15.32,5.32,14.68,5.32,14.29,5.71z" />
+                    </svg>
+                </a>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p class="name">Nome</p>
+                <p class="description">Série muito boa</p>
+                <p class="ranking">9.5</p>
+                <button class="watch">Assistir</button>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p class="name">Nome</p>
+                <p class="description">Série muito boa</p>
+                <p class="ranking">9.5</p>
+                <button class="watch">Assistir</button>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p class="name">Nome</p>
+                <p class="description">Série muito boa</p>
+                <p class="ranking">9.5</p>
+                <button class="watch">Assistir</button>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p class="name">Nome</p>
+                <p class="description">Série muito boa</p>
+                <p class="ranking">9.5</p>
+                <button class="watch">Assistir</button>
+            </div>
+        </div>
+        <div class="social-media-activity">
+            <div class="buttons-social-media">
+                <a href="#">
+                    <button>Ultimas Atualizações</button>
+                </a>
+                <a href="#">
+                    <button>Atualizar</button>
+                </a>
+            </div>
+            <div>
+                <div>
+                    <img src="" alt="">
+                    <p class="name">Nome</p>
+                    <p class="source">via Twitter</p>
+                </div>
+                <p class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo velit suscipit tempora perferendis quaerat rerum nulla veritatis praesentium, non dolorem voluptatem iusto ullam at voluptatibus unde qui totam officia.</p>
+            </div>
+            <div>
+                <div>
+                    <img src="" alt="">
+                    <p class="name">Nome</p>
+                    <p class="source">via Twitter</p>
+                </div>
+                <p class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo velit suscipit tempora perferendis quaerat rerum nulla veritatis praesentium, non dolorem voluptatem iusto ullam at voluptatibus unde qui totam officia.</p>
+            </div>
+            <div>
+                <div>
+                    <img src="" alt="">
+                    <p class="name">Nome</p>
+                    <p class="source">via Twitter</p>
+                </div>
+                <p class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo velit suscipit tempora perferendis quaerat rerum nulla veritatis praesentium, non dolorem voluptatem iusto ullam at voluptatibus unde qui totam officia.</p>
+            </div>
+            <div class="my-post">
+                <p>@seutwitter</p>
+                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                    <path d="M0,0h24v24H0V0z" fill="none" />
+                    <path d="M4,18h11c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H4c-0.55,0-1,0.45-1,1v0C3,17.55,3.45,18,4,18z M4,13h8c0.55,0,1-0.45,1-1v0 c0-0.55-0.45-1-1-1H4c-0.55,0-1,0.45-1,1v0C3,12.55,3.45,13,4,13z M3,7L3,7c0,0.55,0.45,1,1,1h11c0.55,0,1-0.45,1-1v0 c0-0.55-0.45-1-1-1H4C3.45,6,3,6.45,3,7z M20.3,14.88L17.42,12l2.88-2.88c0.39-0.39,0.39-1.02,0-1.41l0,0 c-0.39-0.39-1.02-0.39-1.41,0l-3.59,3.59c-0.39,0.39-0.39,1.02,0,1.41l3.59,3.59c0.39,0.39,1.02,0.39,1.41,0l0,0 C20.68,15.91,20.69,15.27,20.3,14.88z" />
+                    <path d="M0,0h24v24H0V0z" fill="none" />
+                </svg>
+                <input type="text" name="tweet" id="">
+            </div>
+        </div>
+    </div>
 
-</div>
-
-
-<!-- @if (!empty($message))
+    <!-- @if (!empty($message))
 <div class="sucess-message">
     {{$message}}
 </div>
@@ -159,4 +353,4 @@
     </div>
 </div>
 <a class="btn-add" href="/series/adicionar">Adicionar Série</a> -->
-@endsection
+    @endsection
