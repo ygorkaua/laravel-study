@@ -74,10 +74,10 @@
         </ul>
     </div>
     <div class="integrations">
-        <ul class="integration-list">
+        <ul>
             <p>Integrações</p>
             <a href="#">
-                <div>
+                <div class="integration-list">
                     <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="48px" viewBox="0 0 24 24" width="48px" fill="#000000">
                         <g>
                             <rect fill="none" height="24" width="24" />
@@ -88,11 +88,11 @@
                             </g>
                         </g>
                     </svg>
-                    <li class="integration-buttons"><a href="#">MyGames</a></li>
+                    <li class="integration-buttons"><button>MyGames</button></li>
                 </div>
             </a>
             <a href="#">
-                <div>
+                <div class="integration-list">
                     <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="20px" viewBox="0 0 24 24" width="20px" fill="#000000">
                         <g>
                             <rect fill="none" height="24" width="24" />
@@ -103,27 +103,31 @@
                             </g>
                         </g>
                     </svg>
-                    <li class="integration-buttons">Discord</li>
+                    <li class="integration-buttons"><button>Discord</button></li>
                 </div>
             </a>
         </ul>
     </div>
-    <a class="exit-link" href="#">
-        <div class="exit">
-            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
-                <g>
-                    <path d="M0,0h24v24H0V0z" fill="none" />
-                </g>
-                <g>
-                    <g>
-                        <path d="M5,5h6c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h6c0.55,0,1-0.45,1-1v0 c0-0.55-0.45-1-1-1H5V5z" />
-                        <path d="M20.65,11.65l-2.79-2.79C17.54,8.54,17,8.76,17,9.21V11h-7c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h7v1.79 c0,0.45,0.54,0.67,0.85,0.35l2.79-2.79C20.84,12.16,20.84,11.84,20.65,11.65z" />
-                    </g>
-                </g>
-            </svg>
-            <button class="exit-button"><a href="#">Sair</a></button>
-        </div>
-    </a>
+    <div class="exit">
+        <ul>
+            <a href="#">
+                <div class="exit-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                        <g>
+                            <path d="M0,0h24v24H0V0z" fill="none" />
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M5,5h6c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h6c0.55,0,1-0.45,1-1v0 c0-0.55-0.45-1-1-1H5V5z" />
+                                <path d="M20.65,11.65l-2.79-2.79C17.54,8.54,17,8.76,17,9.21V11h-7c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h7v1.79 c0,0.45,0.54,0.67,0.85,0.35l2.79-2.79C20.84,12.16,20.84,11.84,20.65,11.65z" />
+                            </g>
+                        </g>
+                    </svg>
+                    <li class="exit-button"><button>Sair</button></li>
+                </div>
+            </a>
+        </ul>
+    </div>
 </div>
 <div class="main-content">
     <div class="header">
@@ -175,10 +179,13 @@
     </div>
     <div class="first-row">
         <div class="banner">
-            <p>Lancamento</p>
-            <h2>Round 6</h2>
-            <button>Assistir</button>
-            <!-- <img src="https://cabanadoleitor.com.br/wp-content/uploads/2021/09/Round6_Netflix_Serie_CDL_1920x1080_01.jpg" style="width:100%"> -->
+            <div class="text-banner">
+                <p>Lancamento</p>
+                <h2>Round 6</h2>
+            </div>
+            <div class="button-banner">
+                <a href="#"><button>Assistir</button></a>
+            </div>
         </div>
         <div class="friends-activity">
             <div class="title">
