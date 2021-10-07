@@ -32,7 +32,7 @@ body {
     min-width: 220px;
     align-items: center;
     height: 100vh;
-    min-height: 720px;
+    min-height: 600px;
     justify-content: space-between;
 }
 
@@ -279,7 +279,7 @@ body {
 .first-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-left: 20px;
     margin-top: 20px;
@@ -294,7 +294,7 @@ body {
     width: 50vw;
     height: 30vh;
     min-height: 100px;
-    max-height: 216px;
+    max-height: 400px;
     min-width: 384px;
     max-width: 960px;
     border-radius: 20px;
@@ -320,9 +320,6 @@ body {
     letter-spacing: 0.5px;
 }
 
-.button-banner {
-}
-
 .banner button {
     width: 150px;
     height: 50px;
@@ -339,4 +336,37 @@ body {
 .banner button:hover {
     width: 160px;
     height: 55px;
+}
+
+.friends-activity {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 30vh;
+    min-height: 100px;
+    max-height: 500px;
+    min-width: 384px;
+    max-width: 960px;
+}
+
+.friends-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.friends {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #efefef;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 7px;
+}
+
+.friends img {
+    width: 57px;
+    height: 57px;
+    border-radius: 10px;
+    object-fit: cover;
 }

@@ -188,7 +188,7 @@
             </div>
         </div>
         <div class="friends-activity">
-            <div class="title">
+            <div class="friends-title">
                 <h2>Amigos e Séries</h2>
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
@@ -197,20 +197,29 @@
                     </svg>
                 </a>
             </div>
-            <div>
-                <img src="" alt="">
-                <p class="name">Nome</p>
-                <p class="activity">Atividade</p>
+            <div class="friends">
+                <img src="images/118196240_766596270800447_7927652980669072763_n.jpg" alt="">
+                <div>
+                    <p class="name">Julia Rodrigues</p>
+                    <p class="activity">Atividade</p>
+                </div>
+
             </div>
-            <div>
-                <img src="" alt="">
-                <p class="name">Nome</p>
-                <p class="activity">Atividade</p>
+            <div class="friends">
+                <img src="images/194755849_3151422485094823_5303424968238471630_n.jpg" alt="">
+                <div>
+                    <p class=" name">Gustavo Mamede</p>
+                    <p class="activity">Atividade</p>
+                </div>
+
             </div>
-            <div>
-                <img src="" alt="">
-                <p class="name">Nome</p>
-                <p class="activity">Atividade</p>
+            <div class="friends">
+                <img src="images/71895338_173881697093633_3339373831431002231_n.jpg" alt="">
+                <div>
+                    <p class=" name">Guilherme Cuesta</p>
+                    <p class="activity">Atividade</p>
+                </div>
+
             </div>
         </div>
     </div>
