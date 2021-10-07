@@ -200,24 +200,24 @@
             <div class="friends">
                 <img src="images/118196240_766596270800447_7927652980669072763_n.jpg" alt="">
                 <div>
-                    <p class="name">Julia Rodrigues</p>
-                    <p class="activity">Atividade</p>
-                </div>
-
-            </div>
-            <div class="friends">
-                <img src="images/194755849_3151422485094823_5303424968238471630_n.jpg" alt="">
-                <div>
-                    <p class=" name">Gustavo Mamede</p>
-                    <p class="activity">Atividade</p>
+                    <p class="friends-name">Julia Rodrigues</p>
+                    <p class="friends-label-activity">Começou: <b>Breaking Bad</b></p>
                 </div>
 
             </div>
             <div class="friends">
                 <img src="images/71895338_173881697093633_3339373831431002231_n.jpg" alt="">
                 <div>
-                    <p class=" name">Guilherme Cuesta</p>
-                    <p class="activity">Atividade</p>
+                    <p class="friends-name">Gustavo Mamede</p>
+                    <p class="friends-label-activity">Começou: <b>Round 6</b></p>
+                </div>
+
+            </div>
+            <div class="friends">
+                <img src="images/194755849_3151422485094823_5303424968238471630_n.jpg" alt="">
+                <div>
+                    <p class="friends-name">Guilherme Cuesta</p>
+                    <p class="friends-label-activity">Começou: <b>Friends</b></p>
                 </div>
 
             </div>
