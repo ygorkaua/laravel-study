@@ -252,8 +252,8 @@
                 <p class="activity">Episódio</p>
                 <p class="percent">50.00%</p>
             </div>
-            <div>
-                <button class="all-series">Todas as séries</button>
+            <div class="all-series">
+                <button>Todas as séries</button>
             </div>
         </div>
         <div class="popular-series">

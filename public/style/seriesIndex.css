@@ -281,7 +281,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     margin-left: 20px;
     margin-top: 20px;
 }
@@ -293,7 +293,7 @@ body {
     background-image: url(/images/Round6_Netflix_Serie_CDL_1920x1080_01.png);
     background-size: cover;
     width: 50vw;
-    height: 30vh;
+    height: 36vh;
     min-height: 100px;
     max-height: 400px;
     min-width: 384px;
@@ -342,10 +342,10 @@ body {
 .friends-activity {
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    width: 30vw;
     height: 30vh;
     min-height: 100px;
-    max-height: 500px;
+    max-height: 400px;
     min-width: 384px;
     max-width: 960px;
 }
@@ -353,7 +353,11 @@ body {
 .friends-title {
     display: flex;
     justify-content: space-between;
+}
+
+.friends-title h2 {
     font-weight: bold;
+    font-size: 25px;
 }
 
 .friends {
@@ -362,13 +366,15 @@ body {
     align-items: center;
     background-color: #efefef;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 7px;
 }
 
 .friends img {
-    width: 57px;
-    height: 57px;
+    width: 100%;
+    height: 100%;
+    max-width: 7vmin;
+    max-height: 7vmin;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -390,4 +396,19 @@ body {
 .friends-label-activity b {
     color: #929292;
     font-size: 11px;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-progression {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.all-series {
+    justify-self: end;
 }
