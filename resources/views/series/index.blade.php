@@ -278,33 +278,35 @@
                     </svg>
                 </a>
             </div>
-            <div>
-                <img src="" alt="">
-                <p class="name">Nome</p>
-                <p class="description">Série muito boa</p>
-                <p class="ranking">9.5</p>
-                <button class="watch">Assistir</button>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p class="name">Nome</p>
-                <p class="description">Série muito boa</p>
-                <p class="ranking">9.5</p>
-                <button class="watch">Assistir</button>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p class="name">Nome</p>
-                <p class="description">Série muito boa</p>
-                <p class="ranking">9.5</p>
-                <button class="watch">Assistir</button>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p class="name">Nome</p>
-                <p class="description">Série muito boa</p>
-                <p class="ranking">9.5</p>
-                <button class="watch">Assistir</button>
+            <div class="popular-cards">
+                <div class="red-card">
+                    <img src="" alt="">
+                    <p class="name">Nome</p>
+                    <p class="description">Série muito boa</p>
+                    <p class="ranking">9.5</p>
+                    <button class="watch-button">Assistir</button>
+                </div>
+                <div class="white-card">
+                    <img src="" alt="">
+                    <p class="name">Nome</p>
+                    <p class="description">Série muito boa</p>
+                    <p class="ranking">9.5</p>
+                    <button class="watch-button">Assistir</button>
+                </div>
+                <div class="white-card">
+                    <img src="" alt="">
+                    <p class="name">Nome</p>
+                    <p class="description">Série muito boa</p>
+                    <p class="ranking">9.5</p>
+                    <button class="watch-button">Assistir</button>
+                </div>
+                <div class="red-card">
+                    <img src="" alt="">
+                    <p class="name">Nome</p>
+                    <p class="description">Série muito boa</p>
+                    <p class="ranking">9.5</p>
+                    <button class="watch-button">Assistir</button>
+                </div>
             </div>
         </div>
         <div class="social-media-activity">

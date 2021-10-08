@@ -157,7 +157,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 13vh;
+    height: 10vh;
     align-items: center;
     box-shadow: 0 4px 30px -4px gray;
 }
@@ -282,7 +282,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 40vh;
+    height: 29vh;
 }
 
 .banner {
@@ -337,7 +337,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: 30%;
-    height: 90%;
+    height: 95%;
     min-height: 150px;
     min-width: 250px;
 }
@@ -366,17 +366,16 @@ body {
     flex-direction: row;
     align-items: center;
     background-color: #efefef;
-    border-radius: 10px;
-    padding: 5px;
-    height: 30%;
+    border-radius: 14px;
+    padding: 1px;
+    height: 33.3%;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 10px -4px gray;
 }
 
 .friends img {
-    width: 100%;
-    height: 100%;
-    max-width: 7vmin;
-    max-height: 7vmin;
-    border-radius: 15px;
+    width: 12%;
+    border-radius: 14px;
     object-fit: cover;
     margin-left: 5px;
 }
@@ -404,7 +403,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 47vh;
+    height: 59vh;
     width: 100%;
 }
 
@@ -501,6 +500,37 @@ body {
 
 .title-popular svg {
     fill: #b00000;
+}
+
+.popular-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.popular-cards div {
+    width: 47%;
+    height: 47%;
+}
+
+.red-card {
+    background-color: #b00000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px -1px gray;
+}
+
+.white-card {
+    background-color: #fcfcfd;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px -3px gray;
+}
+
+.watch-button {
+    background-color: #b00000;
+    color: #fcfcfd;
+    border-radius: 10px;
 }
 
 .social-media-activity {
