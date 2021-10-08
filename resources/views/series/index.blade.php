@@ -197,67 +197,79 @@
                     </svg>
                 </a>
             </div>
-            <div class="friends">
-                <img src="images/118196240_766596270800447_7927652980669072763_n.jpg" alt="">
-                <div>
-                    <p class="friends-name">Julia Rodrigues</p>
-                    <p class="friends-label-activity">Começou: <b>Breaking Bad</b></p>
-                </div>
+            <div class="friends-block">
+                <div class="friends">
+                    <img src="images/118196240_766596270800447_7927652980669072763_n.jpg" alt="">
+                    <div>
+                        <p class="friends-name">Julia Rodrigues</p>
+                        <p class="friends-label-activity">Começou: <b>Breaking Bad</b></p>
+                    </div>
 
-            </div>
-            <div class="friends">
-                <img src="images/71895338_173881697093633_3339373831431002231_n.jpg" alt="">
-                <div>
-                    <p class="friends-name">Gustavo Mamede</p>
-                    <p class="friends-label-activity">Começou: <b>Round 6</b></p>
                 </div>
+                <div class="friends">
+                    <img src="images/71895338_173881697093633_3339373831431002231_n.jpg" alt="">
+                    <div>
+                        <p class="friends-name">Gustavo Mamede</p>
+                        <p class="friends-label-activity">Começou: <b>Round 6</b></p>
+                    </div>
 
-            </div>
-            <div class="friends">
-                <img src="images/194755849_3151422485094823_5303424968238471630_n.jpg" alt="">
-                <div>
-                    <p class="friends-name">Guilherme Cuesta</p>
-                    <p class="friends-label-activity">Começou: <b>Friends</b></p>
                 </div>
-
+                <div class="friends">
+                    <img src="images/194755849_3151422485094823_5303424968238471630_n.jpg" alt="">
+                    <div>
+                        <p class="friends-name">Guilherme Cuesta</p>
+                        <p class="friends-label-activity">Começou: <b>Friends</b></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="second-row">
         <div class="my-progression">
-            <div class="title">
-                <h2>Progressão</h2>
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
-                        <rect fill="none" height="24" width="24" />
-                        <path d="M14.29,5.71L14.29,5.71c-0.39,0.39-0.39,1.02,0,1.41L18.17,11H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h15.18l-3.88,3.88 c-0.39,0.39-0.39,1.02,0,1.41l0,0c0.39,0.39,1.02,0.39,1.41,0l5.59-5.59c0.39-0.39,0.39-1.02,0-1.41L15.7,5.71 C15.32,5.32,14.68,5.32,14.29,5.71z" />
-                    </svg>
-                </a>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p class="name">Nome</p>
-                <p class="activity">Episódio</p>
-                <p class="percent">50.00%</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p class="name">Nome</p>
-                <p class="activity">Episódio</p>
-                <p class="percent">50.00%</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p class="name">Nome</p>
-                <p class="activity">Episódio</p>
-                <p class="percent">50.00%</p>
+            <div class="blocks-progression">
+                <div class="title-progression">
+                    <h2>Progressão</h2>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                            <rect fill="none" height="24" width="24" />
+                            <path d="M14.29,5.71L14.29,5.71c-0.39,0.39-0.39,1.02,0,1.41L18.17,11H3c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h15.18l-3.88,3.88 c-0.39,0.39-0.39,1.02,0,1.41l0,0c0.39,0.39,1.02,0.39,1.41,0l5.59-5.59c0.39-0.39,0.39-1.02,0-1.41L15.7,5.71 C15.32,5.32,14.68,5.32,14.29,5.71z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="cards">
+                    <div class="progression-cards">
+                        <div>
+                            <img src="" alt="">
+                            <p class="name">Vis a Vis</p>
+                            <p class="activity-progression">T2 Ep. 2</p>
+                        </div>
+                        <p class="percent">50.00%</p>
+                    </div>
+                    <div class="progression-cards">
+                        <div>
+                            <img src="" alt="">
+                            <p class="name">Prison Break</p>
+                            <p class="activity-progression">T3 Ep. 7</p>
+                        </div>
+                        <p class="percent">50.00%</p>
+                    </div>
+                    <div class="progression-cards">
+                        <div>
+                            <img src="" alt="">
+                            <p class="name">Disjoited</p>
+                            <p class="activity-progression">T1 Ep. 6</p>
+                        </div>
+                        <p class="percent">50.00%</p>
+                    </div>
+                </div>
+
             </div>
             <div class="all-series">
                 <button>Todas as séries</button>
             </div>
         </div>
         <div class="popular-series">
-            <div class="title">
+            <div class="title-popular">
                 <h2>Séries Populares</h2>
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
@@ -303,14 +315,6 @@
                 <a href="#">
                     <button>Atualizar</button>
                 </a>
-            </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                    <p class="name">Nome</p>
-                    <p class="source">via Twitter</p>
-                </div>
-                <p class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nemo velit suscipit tempora perferendis quaerat rerum nulla veritatis praesentium, non dolorem voluptatem iusto ullam at voluptatibus unde qui totam officia.</p>
             </div>
             <div>
                 <div>

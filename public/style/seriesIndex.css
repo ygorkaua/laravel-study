@@ -157,7 +157,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 100px;
+    height: 13vh;
     align-items: center;
     box-shadow: 0 4px 30px -4px gray;
 }
@@ -281,9 +281,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
-    margin-left: 20px;
-    margin-top: 20px;
+    align-items: center;
+    height: 40vh;
 }
 
 .banner {
@@ -292,12 +291,10 @@ body {
     justify-content: space-between;
     background-image: url(/images/Round6_Netflix_Serie_CDL_1920x1080_01.png);
     background-size: cover;
-    width: 50vw;
-    height: 36vh;
-    min-height: 100px;
-    max-height: 400px;
+    width: 60%;
+    height: 90%;
+    min-height: 150px;
     min-width: 384px;
-    max-width: 960px;
     border-radius: 20px;
 }
 
@@ -305,26 +302,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-right: 20px;
-    margin-top: 10px;
+    margin: 20px;
     color: #fcfcfd;
-    font-family: "Montserrat";
+    letter-spacing: 0.5px;
 }
 
 .banner div p {
     font-size: 15px;
-    letter-spacing: 0.5px;
 }
 
 .banner div h2 {
     font-size: 30px;
-    letter-spacing: 0.5px;
 }
 
 .banner button {
     width: 150px;
     height: 50px;
-    justify-content: flex-end;
     margin: 30px;
     background-color: #fcfcfd;
     border-radius: 10px;
@@ -342,22 +335,30 @@ body {
 .friends-activity {
     display: flex;
     flex-direction: column;
-    width: 30vw;
-    height: 30vh;
-    min-height: 100px;
-    max-height: 400px;
-    min-width: 384px;
-    max-width: 960px;
+    justify-content: space-between;
+    width: 30%;
+    height: 90%;
+    min-height: 150px;
+    min-width: 250px;
 }
 
 .friends-title {
     display: flex;
     justify-content: space-between;
+    height: 15%;
 }
 
 .friends-title h2 {
     font-weight: bold;
     font-size: 25px;
+}
+
+.friends-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 85%;
 }
 
 .friends {
@@ -367,7 +368,7 @@ body {
     background-color: #efefef;
     border-radius: 10px;
     padding: 5px;
-    margin-bottom: 7px;
+    height: 30%;
 }
 
 .friends img {
@@ -375,8 +376,9 @@ body {
     height: 100%;
     max-width: 7vmin;
     max-height: 7vmin;
-    border-radius: 10px;
+    border-radius: 15px;
     object-fit: cover;
+    margin-left: 5px;
 }
 
 .friends div {
@@ -401,14 +403,107 @@ body {
 .second-row {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: 47vh;
+    width: 100%;
 }
 
 .my-progression {
     display: flex;
     flex-direction: column;
-    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+    width: 25%;
+}
+
+.blocks-progression {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.title-progression {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-progression h2 {
+    color: #b00000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.title-progression a svg {
+    fill: #b00000;
+}
+
+.progression-cards {
+    margin-bottom: 10px;
 }
 
 .all-series {
-    justify-self: end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.cards {
+    margin-top: 20px;
+}
+
+.progression-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.progression-cards div {
+    display: flex;
+    flex-direction: column;
+}
+
+.activity-progression {
+    color: #929292;
+    font-size: 13px;
+}
+
+.percent {
+    color: #b00000;
+    font-size: 14px;
+}
+
+.all-series button {
+    border-radius: 10px;
+    background-color: #b00000;
+    color: #fcfcfd;
+    width: 80%;
+    height: 50px;
+    padding: 10px 50px;
+}
+
+.popular-series {
+    width: 30%;
+    height: 90%;
+}
+
+.title-popular {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-popular h2 {
+    color: #b00000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.title-popular svg {
+    fill: #b00000;
+}
+
+.social-media-activity {
+    width: 30%;
+    height: 90%;
 }
