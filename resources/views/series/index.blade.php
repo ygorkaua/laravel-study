@@ -278,14 +278,29 @@
                     </svg>
                 </a>
             </div>
+
             <div class="popular-cards">
-                <div class="red-card">
+                @php
+                $i = 1;
+                @endphp
+                @foreach ($seriesWatching as $serie)
+                    @php
+                    if ($i !== 1 && $i !== 4) {
+                        $class = 'red-card';
+                    } else {
+                        $class = 'white-card';
+                    };
+                    @endphp
+                <div class="<?= $class ?>">
                     <img src="" alt="">
-                    <p class="name">Nome</p>
-                    <p class="description">Série muito boa</p>
-                    <p class="ranking">9.5</p>
-                    <button class="watch-button">Assistir</button>
+                    <p class="name"><?= $serie->name ?></p>
+                    <p class="description"><?= $serie->description ?></p>
+                    <p class="ranking"><?= $serie->grade ?></p>
+                    <button class="watch-button"><a href="<?= $serie->url ?>">Assistir</a></button>
                 </div>
+                    <?php if (++$i == 5) break; ?>
+                @endforeach
+                <!--
                 <div class="white-card">
                     <img src="" alt="">
                     <p class="name">Nome</p>
@@ -307,7 +322,10 @@
                     <p class="ranking">9.5</p>
                     <button class="watch-button">Assistir</button>
                 </div>
+                    -->
+
             </div>
+
         </div>
         <div class="social-media-activity">
             <div class="buttons-social-media">
@@ -366,7 +384,7 @@
     <div class="to-watch">
         <h2>Para assistir</h2>
         <ul class="series-group">
-            @foreach ($seriesToWatch as $serie)
+            @foreach ($seriesWatching as $serie)
             <a href="/series/{{$serie->id}}">
                 <li class="series-item">{{ $serie->name; }}</li>
             </a>

@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Serie;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 
@@ -11,42 +14,31 @@ class SeriesController extends Controller
     /**
      * @var string
      */
-    private $responseImageLink = '';
+    private string $responseImageLink = '';
 
     /**
      * @var string
      */
-    private $responseRating = '';
-
-    /**
-     * @var array
-     */
-    private $variablesArray;
+    private string $responseRating = '';
 
     /**
      * Return the series names.
      *
-     * @return array
+     * @return Application|Factory|View
      */
     public function index(Request $request)
     {
-        $seriesWatching = [
-            'Elite' => 'https://www.netflix.com/title/80200942',
-            'Outer Banks' => 'https://www.netflix.com/title/80236318',
-            'Round 6' => 'https://www.netflix.com/title/81040344',
-            'Brooklyn Nine-Nine' => 'https://www.netflix.com/title/70281562',
-            'Como Vender Drogas Online (Rápido)' => 'https://www.netflix.com/title/80218448'
-        ];
-        $seriesToWatch = Serie::query()
-            ->orderBy('name')
+        $seriesWatching = Serie::query()
+            ->orderBy('id')
             ->get();
+
         $message = $request->session()->get('message');
 
-        return view('series.index', compact(['seriesWatching', 'seriesToWatch', 'message']));
+        return view('series.index', compact(['seriesWatching', 'message']));
     }
 
     /**
-     * Controler to add a new serie to list
+     * Controller to add a new tv show to list
      */
     public function create()
     {
@@ -77,7 +69,7 @@ class SeriesController extends Controller
             $this->responseRating = $response['rating']['average'];
         }
 
-        $this->variablesArray = [
+        $variablesArray = [
             'seriesToWatch' => $seriesToWatch,
             'serieName' => $serieName,
             'response' => $response,
@@ -85,7 +77,7 @@ class SeriesController extends Controller
             'responseRating' => $this->responseRating,
         ];
 
-        return view('series.item', $this->variablesArray);
+        return view('series.item', $variablesArray);
     }
 
     public function destroy(Request $request)
